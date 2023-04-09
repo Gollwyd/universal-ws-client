@@ -1,6 +1,6 @@
 {
   "name": "universal-ws-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use the same WebSocket client code in a browser or Node.js for isomorphic apps with TypeScript",
   "main": "index.js",
   "browser": "browser.js",
