@@ -21,28 +21,3 @@ On the client side, you'll now need to use [browserify](http://browserify.org/) 
 
 See [`tests/browser`](tests/browser) and [`tests/node`](tests/node)
 
-
-Run Tests
-=========
-
-These are end-to-end tests, that test the installed the package.
-
-Node
-----
-
-```
-cd tests/browser/
-npm install
-npm test
-```
-
-Browser
--------
-
-```
-cd tests/node/
-npm install
-npm test
-```
-
-Then visit [`http://localhost:8000`](http://localhost:8000)

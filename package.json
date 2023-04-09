@@ -1,15 +1,16 @@
 {
-  "name": "universal-websocket-client",
-  "version": "1.0.2",
-  "description": "Use the same WebSocket client code in a browser or Node.js for isomorphic apps",
+  "name": "universal-ws-client",
+  "version": "1.0.0",
+  "description": "Use the same WebSocket client code in a browser or Node.js for isomorphic apps with TypeScript",
   "main": "index.js",
   "browser": "browser.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrielgrant/javascript-universal-websocket-client.git"
+    "url": "git+https://github.com/gollwyd/universal-ws-client.git"
   },
   "keywords": [
     "websocket",
@@ -17,11 +18,13 @@
     "browser",
     "node",
     "isomorphic",
-    "universal"
+    "universal",
+    "typescript"
   ],
-  "author": "Gabriel Grant <g@briel.ca>",
+  "author": "Viktor Makarov <gollwyd@mail.ru>",
   "license": "ISC",
   "dependencies": {
-    "ws": "^3.3.3"
+    "@types/ws": "^8.5.4",
+    "ws": "^8.13.0"
   }
 }
