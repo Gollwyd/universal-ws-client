@@ -1,6 +1,6 @@
 {
   "name": "universal-ws-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use the same WebSocket client code in a browser or Node.js for isomorphic apps with TypeScript",
   "main": "index.js",
   "browser": "browser.js",
@@ -22,7 +22,7 @@
     "typescript"
   ],
   "author": "Viktor Makarov <gollwyd@mail.ru>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/ws": "^8.5.4",
     "ws": "^8.13.0"
